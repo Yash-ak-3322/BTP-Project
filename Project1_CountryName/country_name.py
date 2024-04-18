@@ -8,7 +8,7 @@ from cvzone.HandTrackingModule import HandDetector
 cam_id = 1
 width, height = 1920, 1080
 map_file_path = "../Step1-GetCornerPoints/map.p"
-countries_file_path = "../../Hand Module/countries.p"
+countries_file_path = "../Step2-Get_Country_Polygons/countries.p"
 ######################################
 
 file_obj = open(map_file_path, 'rb')
