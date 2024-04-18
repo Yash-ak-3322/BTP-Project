@@ -39,7 +39,7 @@ cap.set(3, width)
 cap.set(4, height)
 
 file_obj = open(map_file_path, 'rb')
-mapj)
+map_points = pickle.load(file_obj)
 file_obj.close()
 print(f"Loaded map coordinates.", map_points)
 
@@ -48,7 +48,7 @@ current_polygon = []
 
 # Counter to keep track of how many polygons have been created
 counter = 0
-_points = pickle.load(file_ob
+
 # Load previously defined Regions of Interest (ROIs) polygons from a file
 if countries_file_path:
     file_obj = open(countries_file_path, 'rb')
